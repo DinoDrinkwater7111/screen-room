@@ -2,28 +2,21 @@
   "name": "screen-room",
   "version": "1.0.0",
   "private": true,
-  "description": "screen-room",
   "author": "Dino Drinkwater",
-  "keywords": [
-    "gatsby"
-  ],
-  "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "typecheck": "tsc --noEmit"
-  },
   "dependencies": {
-    "gatsby": "^4.20.0",
-    "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "immer": "9.0.15",
+    "lodash": "4.17.21"
   },
   "devDependencies": {
-    "@types/node": "^17.0.45",
-    "@types/react": "^18.0.15",
-    "@types/react-dom": "^18.0.6",
-    "typescript": "^4.7.4"
-  }
+    "@types/node": "16.11.47",
+    "@typescript-eslint/eslint-plugin": "5.32.0",
+    "@typescript-eslint/parser": "5.32.0",
+    "eslint": "8.21.0",
+    "ts-node": "10.9.1",
+    "typescript": "4.7.4"
+  },
+  "workspaces": [
+    "deployment",
+    "webpage"
+  ]
 }

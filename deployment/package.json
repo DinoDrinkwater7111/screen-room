@@ -1,0 +1,26 @@
+{
+  "name": "deployment",
+  "version": "1.0.0",
+  "bin": {
+    "deployment": "bin/deployment.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.2",
+    "@types/prettier": "2.6.0",
+    "aws-cdk": "2.35.0",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-lambda-python-alpha": "2.35.0-alpha.0",
+    "aws-cdk-lib": "2.35.0",
+    "constructs": "10.1.67",
+    "source-map-support": "0.5.21"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "webpage/.cache": true,
+        "webpage/public": true,
+        "node_modules": true,
+        "webpage/src/gatsby-types.d.ts": true
+    }
+}
